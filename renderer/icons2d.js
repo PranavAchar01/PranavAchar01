@@ -92,12 +92,11 @@ const ICONS = {
     rect(13, 10, 14, 2, 'CARBON'); rect(16, 5, 8, 5, 'LAMP'); poly([[15, 5], [25, 5], [20, 1]], 'CARBON');
     poly([[24, 6], [39, 3], [39, 10], [24, 9]], 'LAMP', { flat: 0.9 });
   },
-  optivia() {
-    const hub = [20, 20], nodes = [[7, 8], [33, 9], [8, 32], [32, 31]];
-    for (const [x, y] of nodes) line(hub[0], hub[1], x, y, 2, 'CARBON', { flat: 0.6 });
-    line(8, 32, 32, 31, 1.6, 'CARBON', { flat: 0.6 });
-    circle(hub[0], hub[1], 6, 'GOLD', { ink: true });
-    for (const [x, y] of nodes) circle(x, y, 4, 'PURPLE', { ink: true });
+  seefu() {        // a plate under inspection, with a check
+    circle(20, 22, 15, 'BODY', { ink: true }); circle(20, 22, 10.5, 'RIM');
+    circle(15, 20, 3, 'GREEN'); circle(23, 18, 2.5, 'STRIPE'); circle(22, 26, 3, 'GOLD');
+    circle(33, 8, 6, 'CYAN', { ink: true });
+    line(30, 8, 32.5, 10.5, 1.6, 'BODY', { flat: 0.95 }); line(32.5, 10.5, 36.5, 5.5, 1.6, 'BODY', { flat: 0.95 });
   },
   reasoning() {
     [[3, 30, 8], [12, 24, 14], [21, 18, 20], [30, 12, 26]].forEach(([x, y, h], i) => {

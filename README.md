@@ -7,7 +7,7 @@
 <a href="https://github.com/PranavAchar01/HealthFlow-ApifyxScalekit"><img src="icons/healthflow.png" width="24%" alt="HealthFlow"></a>
 <br>
 <a href="https://github.com/PranavAchar01/Vigil-AnthropicxLightspeedxAbridge-Hackathon"><img src="icons/vigil.png" width="24%" alt="Vigil"></a>
-<a href="https://github.com/PranavAchar01/optivia-mvp"><img src="icons/optivia.png" width="24%" alt="Optivia"></a>
+<a href="https://github.com/PranavAchar01/Seefu"><img src="icons/seefu.png" width="24%" alt="Seefu"></a>
 <a href="https://github.com/PranavAchar01/error-propagation-llm-reasoning"><img src="icons/reasoning.png" width="24%" alt="LLM reasoning research"></a>
 <a href="https://github.com/search?q=author%3APranavAchar01+is%3Apr+is%3Amerged&type=pullrequests"><img src="icons/open-source.png" width="24%" alt="Merged open-source PRs"></a>
 <br>

@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=block" rel="stylesheet">
+<style>
+body{background:#06081A;margin:0;padding:16px;display:flex;flex-wrap:wrap;gap:16px;width:1680px}
+.tile{width:384px;height:348px;border:4px solid #000;background:#121A4A;box-sizing:content-box}
+canvas{display:block;width:384px;height:264px;image-rendering:pixelated}
+.cap{height:84px;padding:16px 16px 0;box-sizing:border-box;border-top:4px solid #000;background:#121A4A;overflow:hidden}
+.t{font-family:"Press Start 2P";font-size:16px;color:#FFFFFF;line-height:20px;white-space:nowrap}
+.s{font-family:"VT323";font-size:26px;color:#C8CBD8;line-height:26px;margin-top:10px;white-space:nowrap}
+</style></head><body>
+<script src="icons2d.js"></script>
+<script>
+const TILES = [["player-two","Player Two","1st, Executable World"],["sixthsense","SixthSense","2nd, ExecuTorch, PyTorch blog"],
+["foundry","Foundry","1st, terac track"],["healthflow","HealthFlow","1st, Scalekit x Apify"],
+["vigil","Vigil","Finalist, Anthropic x Abridge"],["optivia","Optivia","Co-founder"],
+["reasoning","LLM reasoning","UCSC AIEA research"],["open-source","Open source","statsmodels, LanceDB, Biome"],
+["guardianeye","GuardianEye","Pose and depth safety agent"],["osteon","Osteon","Implant-design agent in Blender"],
+["scrutineer","Scrutineer","Self-improving UI agent"],["sightline","Sightline","Screen-aware voice agent"],
+["lumen","Lumen","Accessibility agent"],["resume","Resume","One page, PDF"],
+["website","Website","pranavachar.vercel.app"],["linkedin","LinkedIn","in/pranavachar"]];
+for (const [slug, title, sub] of TILES) {
+  const d = document.createElement('div'); d.className = 'tile'; d.id = 'tile-' + slug;
+  const cv = document.createElement('canvas'); d.appendChild(cv);
+  const cap = document.createElement('div'); cap.className = 'cap';
+  cap.innerHTML = '<div class="t"></div><div class="s"></div>';
+  cap.querySelector('.t').textContent = title; cap.querySelector('.s').textContent = sub;
+  d.appendChild(cap); document.body.appendChild(d);
+  renderIcon(slug, cv);
+}
+window.__done = true;
+</script></body></html>

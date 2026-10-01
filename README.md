@@ -1,22 +1,24 @@
 ### I try to build cool things.
 
 <p align="center">
+<a href="https://github.com/PranavAchar01/understudy-replay"><img src="icons/understudy.png" width="24%" alt="Understudy: 1st place, Runway API Hackathon (Sept 2026)"></a>
 <a href="https://github.com/PranavAchar01/player-two"><img src="icons/player-two.png" width="24%" alt="Player Two"></a>
 <a href="https://github.com/shanayg15/SixthSense-QualcommxMeta"><img src="icons/sixthsense.png" width="24%" alt="SixthSense"></a>
 <a href="https://github.com/PranavAchar01/foundry"><img src="icons/foundry.png" width="24%" alt="Foundry"></a>
-<a href="https://github.com/PranavAchar01/HealthFlow-ApifyxScalekit"><img src="icons/healthflow.png" width="24%" alt="HealthFlow"></a>
 <br>
+<a href="https://github.com/PranavAchar01/HealthFlow-ApifyxScalekit"><img src="icons/healthflow.png" width="24%" alt="HealthFlow"></a>
 <a href="https://github.com/PranavAchar01/Vigil-AnthropicxLightspeedxAbridge-Hackathon"><img src="icons/vigil.png" width="24%" alt="Vigil"></a>
 <a href="https://github.com/PranavAchar01/Seefu"><img src="icons/seefu.png" width="24%" alt="Seefu"></a>
 <a href="https://github.com/PranavAchar01/error-propagation-llm-reasoning"><img src="icons/reasoning.png" width="24%" alt="LLM reasoning research"></a>
-<a href="https://github.com/search?q=author%3APranavAchar01+is%3Apr+is%3Amerged&type=pullrequests"><img src="icons/open-source.png" width="24%" alt="Merged open-source PRs"></a>
 <br>
+<a href="https://github.com/search?q=author%3APranavAchar01+is%3Apr+is%3Amerged&type=pullrequests"><img src="icons/open-source.png" width="24%" alt="Merged open-source PRs"></a>
 <a href="https://github.com/PranavAchar01/guardianeye"><img src="icons/guardianeye.png" width="24%" alt="GuardianEye"></a>
 <a href="https://github.com/PranavAchar01/osteon"><img src="icons/osteon.png" width="24%" alt="Osteon"></a>
+<br>
 <a href="https://github.com/PranavAchar01/scrutineer"><img src="icons/scrutineer.png" width="24%" alt="Scrutineer"></a>
 <a href="https://github.com/PranavAchar01/sightline"><img src="icons/sightline.png" width="24%" alt="Sightline"></a>
-<br>
 <a href="https://github.com/PranavAchar01/lumen"><img src="icons/lumen.png" width="24%" alt="Lumen"></a>
+<br>
 <a href="https://github.com/PranavAchar01/PranavAchar01/blob/main/resume.pdf"><img src="icons/resume.png" width="24%" alt="Resume (PDF)"></a>
 <a href="https://pranavachar.vercel.app"><img src="icons/website.png" width="24%" alt="Website"></a>
 <a href="https://www.linkedin.com/in/pranavachar"><img src="icons/linkedin.png" width="24%" alt="LinkedIn"></a>

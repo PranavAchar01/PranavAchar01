@@ -67,6 +67,14 @@ const ICONS = {
     line(32, 19, 33, 25, 1.8, 'CARBON'); line(32, 19, 37, 22, 1.8, 'CARBON');
     rect(30, 29, 7, 7, 'CYAN', { ink: true });
   },
+  understudy() {   // a clapperboard (the generated take) feeding a small arm
+    rect(4, 16, 24, 19, 'CARBON'); rect(6, 19, 20, 13, 'CYAN', { flat: 0.6 });
+    poly([[13, 21.5], [13, 29.5], [20.5, 25.5]], 'BODY', { flat: 0.95, ink: true });
+    poly([[4, 15], [27, 7], [28.5, 11], [5.5, 19]], 'BODY');
+    for (let i = 0; i < 3; i++) poly([[8 + i * 7, 13.6], [11 + i * 7, 12.6], [12.4 + i * 7, 16.4], [9.4 + i * 7, 17.4]], 'CARBON', { flat: 0.3 });
+    rect(30, 33, 8, 3, 'CARBON'); line(34, 33, 34, 23, 3.4, 'BODY'); line(34, 23, 29, 18, 3, 'BODY');
+    circle(34, 23, 2.4, 'GOLD'); circle(34, 33, 2.2, 'GOLD');
+  },
   sixthsense() {
     rect(5, 5, 14, 30, 'CARBON'); rect(7, 8, 10, 23, 'CYAN'); rect(10, 6, 4, 1, 'CARBON', { flat: 0.2 });
     for (const [r0, r1] of [[5, 7.5], [10, 12.5], [15, 17.5]]) arc(19, 20, r0, r1, -55, 55, 'PURPLE');

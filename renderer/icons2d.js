@@ -79,6 +79,16 @@ const ICONS = {
     rect(5, 5, 14, 30, 'CARBON'); rect(7, 8, 10, 23, 'CYAN'); rect(10, 6, 4, 1, 'CARBON', { flat: 0.2 });
     for (const [r0, r1] of [[5, 7.5], [10, 12.5], [15, 17.5]]) arc(19, 20, r0, r1, -55, 55, 'PURPLE');
   },
+  etch() {         // a routed circuit board: chip, gold traces and pads
+    rect(3, 7, 34, 27, 'GREEN', { ink: true, flat: 0.38 });
+    rect(15, 14, 11, 12, 'CARBON', { ink: true });
+    for (let i = 0; i < 3; i++) { rect(12, 16 + i * 3.5, 3, 1.6, 'GOLD', { flat: 0.8 }); rect(26, 16 + i * 3.5, 3, 1.6, 'GOLD', { flat: 0.8 }); }
+    line(7, 12, 13, 12, 1.6, 'GOLD'); line(13, 12, 13, 16.8, 1.6, 'GOLD');
+    line(29, 23.8, 33, 23.8, 1.6, 'GOLD'); line(33, 23.8, 33, 29, 1.6, 'GOLD');
+    line(8, 29, 12, 23.8, 1.6, 'GOLD'); line(29, 16.8, 32, 12, 1.6, 'GOLD');
+    for (const [x, y] of [[7, 12], [33, 29], [8, 29], [32, 12]]) circle(x, y, 2.2, 'GOLD');
+    circle(18, 17, 1, 'CARBON', { flat: 0.9 });
+  },
   foundry() {
     rect(3, 20, 34, 16, 'BODY');
     for (let i = 0; i < 3; i++) poly([[3 + i * 9, 20], [12 + i * 9, 20], [12 + i * 9, 12]], i === 1 ? 'GOLD' : 'CARBON');

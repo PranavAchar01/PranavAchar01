@@ -1,5 +1,3 @@
-I build AI agents and robot learning systems.
-
-Six first-place hackathon wins since June 2026, including [Etch](https://github.com/PranavAchar01/etch) ($14K) and [Understudy](https://github.com/PranavAchar01/understudy-replay) ($10K).
+I build AI agents and robot learning systems. [Etch](https://github.com/PranavAchar01/etch) turns a spoken request into a routed, checked circuit board (1st overall, $14K), [Understudy](https://github.com/PranavAchar01/understudy-replay) turns one sentence into physics-checked robot demos and a trained policy (1st, $10K), and [Player Two](https://github.com/PranavAchar01/player-two) turns human video into robot training data. I also research multi-step reasoning in LLMs at [UC Santa Cruz](https://zenodo.org/records/23329497), contribute to [statsmodels](https://github.com/statsmodels/statsmodels), and build on-device vision with [SixthSense](https://github.com/shanayg15/SixthSense-QualcommxMeta), featured on the PyTorch blog.
 
 [pranavachar.com](https://pranavachar.com) · [LinkedIn](https://www.linkedin.com/in/pranavachar)
